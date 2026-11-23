@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sharif Danish</title>
+  <meta name="description" content="Sharif Danish — MSc Computer Science student at King's College London. Software engineering, web security and machine learning.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+  <header>
+    <p class="prompt"><span class="ps1">sharif@london:~$</span> whoami</p>
+    <h1>Sharif Danish</h1>
+    <p class="sub">MSc Computer Science, King's College London</p>
+    <nav>
+      [ <a href="#about">about</a>
+      | <a href="#experience">experience</a>
+      | <a href="#projects">projects</a>
+      | <a href="#education">education</a>
+      | <a href="#certifications">certifications</a>
+      | <a href="#contact">contact</a> ]
+    </nav>
+  </header>
+
+  <section id="about">
+    <p class="prompt"><span class="ps1">~$</span> cat about.txt</p>
+    <p>
+      I am an MSc Computer Science student at King's College London with 3+ years of
+      experience building and running secure web applications, most recently as CTO
+      of RelayTrust. My work sits where full-stack development, secure software delivery
+      and machine learning meet. I have built ML-based web-attack detection, production
+      Django/React systems, and the Linux infrastructure that runs them.
+    </p>
+    <p>
+      Current interests: applied machine learning for security, systems, and AI-assisted
+      software engineering.
+    </p>
+    <dl class="kv">
+      <dt>languages</dt>  <dd>Python, JavaScript, C, C++, Java, Bash, Assembly</dd>
+      <dt>web</dt>        <dd>Django, Django REST Framework, React, REST APIs, system design</dd>
+      <dt>data / ml</dt>  <dd>supervised &amp; unsupervised learning</dd>
+      <dt>databases</dt>  <dd>PostgreSQL, MySQL, SQLite, Oracle</dd>
+      <dt>security</dt>   <dd>NGINX, Apache, ModSecurity, OWASP CRS, Snort, Cisco ASA, Fortinet</dd>
+      <dt>tools</dt>      <dd>Linux (Ubuntu), Git, Docker, Neovim, VS Code</dd>
+    </dl>
+  </section>
+
+  <section id="experience">
+    <p class="prompt"><span class="ps1">~$</span> history --work</p>
+
+    <article>
+      <div class="row">
+        <h3>Chief Technology Officer / Software Engineer, <a href="https://relaytrust.uk">RelayTrust</a></h3>
+        <span class="date">Jul 2025 – Aug 2026</span>
+      </div>
+      <ul>
+        <li>Designed the product architecture and built full-stack features with Python, Django, React, PostgreSQL and REST APIs.</li>
+        <li>Integrated third-party telecom, payment and digital-product APIs to support secure international transactions.</li>
+        <li>Implemented authentication, authorisation, input validation, API security and automated testing.</li>
+        <li>Managed deployment, monitoring and performance on Linux and NGINX. Kept <strong>99.8% uptime</strong>.</li>
+        <li>Onboarded <strong>150+ users</strong> within the first three months of launch.</li>
+      </ul>
+    </article>
+
+    <article>
+      <div class="row">
+        <h3>Career break</h3>
+        <span class="date">Dec 2024 – Jul 2025</span>
+      </div>
+      <ul>
+        <li>Competitive chess and personal reflection.</li>
+      </ul>
+    </article>
+
+    <article>
+      <div class="row">
+        <h3>Software Engineering Intern, Corvit Systems, Peshawar</h3>
+        <span class="date">Nov 2022 – Nov 2024</span>
+      </div>
+      <ul>
+        <li>Developed and maintained secure web applications (including corvitpeshawar.com) with Python, Django and relational databases.</li>
+        <li>Improved application uptime from <strong>93% to 98%</strong> through Bash automation for Linux monitoring and security checks.</li>
+        <li>Implemented REST APIs, authentication, authorisation, validation and secure coding practices.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="projects">
+    <p class="prompt"><span class="ps1">~$</span> ls -l projects/</p>
+
+    <article>
+      <div class="row">
+        <h3>TradeAllN: stock paper-trading platform</h3>
+        <span class="date">2026</span>
+      </div>
+      <p>Full-stack trading simulator with real market data and news, live WebSocket prices, order matching and plain-English automations.</p>
+      <p class="tags">Django · DRF · Channels · Celery · PostgreSQL · Redis · React · Claude API · Docker</p>
+    </article>
+
+    <article>
+      <div class="row">
+        <h3>MyComputerSpecs: system monitoring dashboard</h3>
+        <span class="date">2026</span>
+      </div>
+      <p>Real-time dashboard for CPU, memory, disk, network, GPU and process stats, with live charts and Postgres-backed history.</p>
+      <p class="tags">Django · DRF · React · Docker</p>
+    </article>
+
+    <article>
+      <div class="row">
+        <h3>PhishLense: AI security copilot</h3>
+        <span class="date">2026</span>
+      </div>
+      <p>Intercepts emails, links, text and voice, classifies them with an ML model, sandboxes risky actions and explains threats in plain language.</p>
+      <p class="tags">Django · React · ML classifier · OpenAI API</p>
+    </article>
+
+    <article>
+      <div class="row">
+        <h3>Face Slide Control: hands-free computer control</h3>
+        <span class="date">2025</span>
+      </div>
+      <p>Python app for Ubuntu that turns webcam face and hand gestures and offline voice commands into scrolling, clicks and slide navigation. Runs fully on-device.</p>
+      <p class="tags">Python · computer vision · offline speech</p>
+    </article>
+
+    <article>
+      <div class="row">
+        <h3>Hybrid machine-learning web application firewall</h3>
+        <span class="date">2024</span>
+      </div>
+      <p>
+        Final-year project. Paired NGINX, ModSecurity v3 and OWASP CRS with a Django ML microservice.
+        A tuned Random Forest trained on ~31,000 payloads detected SQLi and XSS at <strong>~91% accuracy</strong>.
+      </p>
+      <p class="tags">NGINX · ModSecurity · OWASP CRS · Django · Random Forest</p>
+    </article>
+
+    <article>
+      <div class="row">
+        <h3>Parallel &amp; distributed computing</h3>
+        <span class="date">2024</span>
+      </div>
+      <p>POSIX-thread multithreading, MPI communication patterns and data-partitioned parallel matrix multiplication in C.</p>
+      <p class="tags">C · pthreads · MPI</p>
+    </article>
+
+    <article>
+      <div class="row">
+        <h3>Flood &amp; water monitoring</h3>
+        <span class="date">2023</span>
+      </div>
+      <p>Built with two teammates: an Arduino water-level monitor that gives real-time LED and message alerts as an early flood warning.</p>
+      <p class="tags">Arduino · IoT</p>
+    </article>
+
+    <article>
+      <div class="row">
+        <h3>Networking home labs</h3>
+        <span class="date">2022</span>
+      </div>
+      <p>Routing, switching, VLANs and firewalls in enterprise-style lab networks.</p>
+    </article>
+
+    <p class="more">More on <a href="https://github.com/sharifkhan96">github.com/sharifkhan96</a>.</p>
+  </section>
+
+  <section id="education">
+    <p class="prompt"><span class="ps1">~$</span> cat education.txt</p>
+
+    <article>
+      <div class="row">
+        <h3>MSc Computer Science, King's College London</h3>
+        <span class="date">Sep 2026 – Sep 2027 (expected)</span>
+      </div>
+      <p>Focus areas: programming, mathematics and artificial intelligence.</p>
+    </article>
+  </section>
+
+  <section id="certifications">
+    <p class="prompt"><span class="ps1">~$</span> ls certifications/ achievements/</p>
+    <ul>
+      <li>Machine Learning, Stanford Online / DeepLearning.AI (Coursera), 2023</li>
+      <li>Cisco Certified Network Associate (CCNA)</li>
+      <li>Microsoft Certified Solutions Expert (MCSE)</li>
+      <li>Ethical Hacking Essentials, EC-Council</li>
+      <li>Cybersecurity for Everyone</li>
+    </ul>
+    <ul>
+      <li>AI/ML Team Lead, Google Developer Student Club at IMSciences (2023–2024)</li>
+      <li>Associate Member, BCS, The Chartered Institute for IT (2025–present)</li>
+      <li>Best Project of the Year, Diploma in Information Technology (2019)</li>
+      <li>Competitive chess player (top 1%), English Chess Federation member</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <p class="prompt"><span class="ps1">~$</span> finger sharif</p>
+    <dl class="kv">
+      <dt>email</dt>    <dd><a href="mailto:sharif.danish@kcl.ac.uk">sharif.danish@kcl.ac.uk</a></dd>
+      <dt>github</dt>   <dd><a href="https://github.com/sharifkhan96">github.com/sharifkhan96</a></dd>
+      <dt>linkedin</dt> <dd><a href="https://www.linkedin.com/in/sharif-danish">linkedin.com/in/sharif-danish</a></dd>
+      <dt>location</dt> <dd>London, UK (UK right to work, no sponsorship required)</dd>
+    </dl>
+  </section>
+
+  <footer>
+    <p class="prompt"><span class="ps1">~$</span> <span class="cursor" aria-hidden="true">_</span></p>
+    <p class="small">© 2026 Sharif Danish · last updated Nov 2026</p>
+  </footer>
+
+</main>
+</body>
+</html>
